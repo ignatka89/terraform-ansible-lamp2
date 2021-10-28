@@ -79,7 +79,7 @@ The user data that we are passing to the instance is the filename:
 
 You can clone the Ansible Script here: 
 
-`git clone https://github.com/ignatka89/ansible_lamp`
+`git clone https://github.com/ignatka89/ansible_lamp.git`
 
 This is just a sample and only the apache sever is running here.
 And when you access the instances you can do the following command to check access to MySql 
@@ -89,8 +89,5 @@ Database in RDS using the terraform output dburl.
 
 And hence we can start building the LAMP application as required.
 
-<h1>Anything better we can do<h1>
+<h1>Thank you<h1>
 
-Yes absolutely.. We can prepare modules in Terraform for better code management along with separate state files 
-for separate components.. separate for networks, applications, database, iam etc..
-And for security of the Terrform State we can use remote state backend along with lock functionality so you can work on it from anywhere or many members can work on it.
